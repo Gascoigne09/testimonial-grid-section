@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.border-image {
+  border: 2px solid #a988dd;
+}
+
 section {
   margin: 3rem 0;
 }
