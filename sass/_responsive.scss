@@ -1,0 +1,41 @@
+@include media-lg {
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "one one two three"
+                             "four five five three";
+        column-gap: 2rem;
+        row-gap: 2rem;
+        width: 90%;
+        margin: 5rem auto;
+        max-width: 1060px;
+    }
+
+    .testimonal-container {
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+
+    }
+
+    .test-1 {
+        grid-area: one;
+        background-size: 25%;
+    }
+    .test-2 {
+        grid-area: two;
+    }
+    .test-3 {
+        grid-area: four;
+    }
+    .test-4 {
+        grid-area: five;
+    }
+    .test-5 {
+        grid-area: three;
+    }
+
+
+
+}
